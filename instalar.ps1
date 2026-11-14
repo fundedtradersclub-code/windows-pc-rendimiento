@@ -1,6 +1,7 @@
 ﻿# Instala la skill rendimiento-pc para Claude Code en el perfil del usuario.
 # Uso: powershell -ExecutionPolicy Bypass -File .\instalar.ps1
 $ErrorActionPreference = 'Stop'
+try { [Console]::OutputEncoding = [System.Text.Encoding]::UTF8 } catch { }
 $origen = Join-Path $PSScriptRoot 'rendimiento-pc'
 $destino = Join-Path $env:USERPROFILE '.claude\skills\rendimiento-pc'
 
