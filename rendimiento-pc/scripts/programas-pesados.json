@@ -1,0 +1,238 @@
+{
+  "nota": "Patrones (expresiones regulares, sin distinguir mayúsculas) contra el nombre de 'Aplicaciones instaladas'. 'consejo' es una sugerencia: la decisión es siempre del usuario.",
+  "programas": [
+    {
+      "patron": "BlueStacks",
+      "categoria": "emulador",
+      "que_es": "Emulador de Android para usar apps y juegos del celular en la PC.",
+      "consejo": "Desinstalar si no juegas ni usas apps de Android en la PC: activa virtualización y servicios que restan rendimiento."
+    },
+    {
+      "patron": "MEmu",
+      "categoria": "emulador",
+      "que_es": "Emulador de Android (parecido a BlueStacks).",
+      "consejo": "Desinstalar si no lo usas."
+    },
+    {
+      "patron": "LDPlayer|dnplayer",
+      "categoria": "emulador",
+      "que_es": "Emulador de Android orientado a juegos.",
+      "consejo": "Desinstalar si no lo usas."
+    },
+    {
+      "patron": "Nox ?Player|^Nox$",
+      "categoria": "emulador",
+      "que_es": "Emulador de Android.",
+      "consejo": "Desinstalar si no lo usas."
+    },
+    {
+      "patron": "GameLoop|Tencent Gaming Buddy",
+      "categoria": "emulador",
+      "que_es": "Emulador de Android de Tencent para juegos como PUBG Mobile.",
+      "consejo": "Desinstalar si no lo usas."
+    },
+    {
+      "patron": "Epic Games Launcher",
+      "categoria": "launcher de juegos",
+      "que_es": "Tienda y lanzador de juegos de Epic (Fortnite, juegos gratis).",
+      "consejo": "Desinstalar si no juegas; si juegas, quitarlo del inicio."
+    },
+    {
+      "patron": "Epic Online Services",
+      "categoria": "launcher de juegos",
+      "que_es": "Componente de Epic que usan algunos juegos en línea.",
+      "consejo": "Se puede quitar junto con el launcher de Epic si ya no hay juegos que lo usen."
+    },
+    {
+      "patron": "EA app|Origin$",
+      "categoria": "launcher de juegos",
+      "que_es": "Tienda y lanzador de juegos de EA.",
+      "consejo": "Desinstalar si no juegas; si juegas, quitarlo del inicio."
+    },
+    {
+      "patron": "Ubisoft Connect|Uplay",
+      "categoria": "launcher de juegos",
+      "que_es": "Tienda y lanzador de juegos de Ubisoft.",
+      "consejo": "Desinstalar si no juegas; si juegas, quitarlo del inicio."
+    },
+    {
+      "patron": "Battle\\.net",
+      "categoria": "launcher de juegos",
+      "que_es": "Lanzador de juegos de Blizzard.",
+      "consejo": "Desinstalar si no juegas; si juegas, quitarlo del inicio."
+    },
+    {
+      "patron": "^Steam$",
+      "categoria": "launcher de juegos",
+      "que_es": "Tienda y biblioteca de juegos de Valve.",
+      "consejo": "Si juegas, mantenerlo pero quitarlo del inicio."
+    },
+    {
+      "patron": "Riot Vanguard",
+      "categoria": "antitrampas",
+      "que_es": "Antitrampas de Riot (Valorant, LoL) que arranca con Windows a nivel profundo del sistema.",
+      "consejo": "Desinstalar si ya no juegas esos títulos."
+    },
+    {
+      "patron": "Denuvo Anti-Cheat",
+      "categoria": "antitrampas",
+      "que_es": "Antitrampas que instalan algunos juegos.",
+      "consejo": "Desinstalar si ya no tienes el juego que lo trajo."
+    },
+    {
+      "patron": "EasyAntiCheat|Easy Anti-Cheat|BattlEye",
+      "categoria": "antitrampas",
+      "que_es": "Antitrampas que instalan algunos juegos.",
+      "consejo": "Desinstalar si ya no tienes el juego que lo trajo."
+    },
+    {
+      "patron": "McAfee",
+      "categoria": "antivirus de prueba",
+      "que_es": "Antivirus que suele venir preinstalado en equipos nuevos como prueba.",
+      "consejo": "Si no pagas la licencia, desinstalarlo y dejar Microsoft Defender. Nunca tener dos antivirus."
+    },
+    {
+      "patron": "Norton|Avast|AVG |Avira|Kaspersky|ESET|Bitdefender|Panda",
+      "categoria": "antivirus",
+      "que_es": "Antivirus de terceros.",
+      "consejo": "Uno solo como máximo. Si hay dos o más, dejar uno (o solo Microsoft Defender)."
+    },
+    {
+      "patron": "WildTangent|Candy Crush|Booking\\.com|Dropbox Promotion|ExpressVPN.*trial",
+      "categoria": "preinstalado",
+      "que_es": "Programa promocional que viene de fábrica.",
+      "consejo": "Desinstalar si no lo usas."
+    },
+    {
+      "patron": "CCleaner|Advanced SystemCare|Driver Booster|Wise Care|Glary|PC Optimizer|Reimage|Restoro|Driver ?Easy|AVG TuneUp|Avast Cleanup",
+      "categoria": "optimizador",
+      "que_es": "Supuesto 'optimizador' o limpiador de registro.",
+      "consejo": "Desinstalar: no aceleran el equipo, corren en segundo plano y algunos cambian ajustes sin avisar."
+    },
+    {
+      "patron": "Ask Toolbar|Conduit|Babylon|Yahoo.*Toolbar|Web Companion|Bing Bar",
+      "categoria": "barra o adware",
+      "que_es": "Barra de navegador o programa publicitario instalado junto con otro programa.",
+      "consejo": "Desinstalar."
+    },
+    {
+      "patron": "DeskRest",
+      "categoria": "utilidad poco conocida",
+      "que_es": "Programa de recordatorios de pausas de escritorio poco común.",
+      "consejo": "Desinstalar si no lo reconoces o no lo usas."
+    },
+    {
+      "patron": "uTorrent|BitTorrent",
+      "categoria": "descargas p2p",
+      "que_es": "Programa de descargas por torrent que suele quedar subiendo archivos en segundo plano.",
+      "consejo": "Cerrarlo o quitarlo del inicio si no lo usas a diario; las versiones gratuitas traen publicidad."
+    },
+    {
+      "patron": "Adobe Creative Cloud",
+      "categoria": "suite pesada",
+      "que_es": "Gestor de los programas de Adobe; deja varios procesos siempre abiertos.",
+      "consejo": "Si usas Adobe, quitarlo del inicio; si no, desinstalarlo."
+    }
+  ],
+  "nota_inicio": "'inicio' explica programas que arrancan con Windows (se compara con el nombre de la entrada y su comando). 'impacto': alto/medio/bajo en el arranque y la memoria. 'mantener': true si NO conviene quitarlo del inicio. Se compara contra el nombre de la entrada y el nombre del archivo que ejecuta (no la ruta completa), para que carpetas como ProgramData no den coincidencias falsas.",
+  "inicio": [
+    {
+      "patron": "SecurityHealth|Windows Security|MsMpEng",
+      "que_es": "Seguridad de Windows (icono del antivirus).",
+      "impacto": "bajo",
+      "mantener": true,
+      "consejo": "Dejarlo."
+    },
+    {
+      "patron": "\\bRtk|Realtek|IAStor|Intel.*(Graphics|Audio)|\\bigfx|\\bAMD\\b|Radeon|NVIDIA|Synaptics|\\bELAN\\b|Dolby|\\bWaves\\b|MaxxAudio|Conexant",
+      "que_es": "Controlador o panel de audio, video o touchpad del fabricante.",
+      "impacto": "bajo",
+      "mantener": true,
+      "consejo": "Dejarlo: quitarlo puede dejar sin sonido, brillo o gestos del touchpad."
+    },
+    {
+      "patron": "HPSEU|HP .*(Support|Smart|Audio|Hotkey)|HPMSGSVC|Lenovo|Vantage|Dell|ASUS|Armoury|MyASUS|Acer|Care Center",
+      "que_es": "Utilidad del fabricante del equipo (teclas especiales, batería, actualizaciones).",
+      "impacto": "bajo",
+      "mantener": true,
+      "consejo": "Dejarlo salvo que la persona sepa que no lo usa. Puede aparecer dos veces (usuario y equipo): es el mismo programa."
+    },
+    {
+      "patron": "EPSON|Canon|Brother|HP.*(Printer|Scan)|E_IATI|Status ?Monitor",
+      "que_es": "Monitor de la impresora (avisos de tinta y estado).",
+      "impacto": "medio",
+      "mantener": false,
+      "consejo": "Se puede quitar del inicio: la impresora sigue imprimiendo igual, solo deja de avisar de la tinta al instante."
+    },
+    {
+      "patron": "AnyDesk|TeamViewer|RustDesk|Chrome Remote|Splashtop|UltraViewer|Supremo",
+      "que_es": "Programa de acceso remoto: permite que otra persona controle la PC a distancia.",
+      "impacto": "medio",
+      "mantener": false,
+      "consejo": "Quitar del inicio si no se usa a diario; si la persona no recuerda haberlo instalado o no sabe quién lo usa, es una alerta de seguridad: proponer desinstalarlo y revisar con quién se compartió el acceso."
+    },
+    {
+      "patron": "OneDrive",
+      "que_es": "OneDrive: copia los archivos en la nube de Microsoft.",
+      "impacto": "medio",
+      "mantener": true,
+      "consejo": "Si guarda Escritorio o Documentos en la nube, dejarlo; si no lo usa, se puede quitar del inicio."
+    },
+    {
+      "patron": "Dropbox|Google ?Drive|GoogleDriveFS|MEGA",
+      "que_es": "Sincronización de archivos en la nube.",
+      "impacto": "medio",
+      "mantener": false,
+      "consejo": "Dejarlo si sincroniza archivos de trabajo; si no, quitar del inicio."
+    },
+    {
+      "patron": "Spotify|iTunes|Apple Music",
+      "que_es": "Música.",
+      "impacto": "medio",
+      "mantener": false,
+      "consejo": "Quitar del inicio: se abre en segundos cuando se quiera."
+    },
+    {
+      "patron": "Discord|WhatsApp|Telegram|Skype|Zoom|Teams|Slack|Messenger",
+      "que_es": "Mensajería o videollamadas.",
+      "impacto": "medio",
+      "mantener": false,
+      "consejo": "Quitar del inicio salvo que la persona necesite recibir mensajes apenas prende la PC."
+    },
+    {
+      "patron": "Steam|Epic|EA ?app|Origin|Ubisoft|Battle\\.net|Riot|Roblox|GOG|Xbox",
+      "que_es": "Lanzador de juegos.",
+      "impacto": "alto",
+      "mantener": false,
+      "consejo": "Quitar del inicio: se abre al ir a jugar."
+    },
+    {
+      "patron": "Opera|Brave|Vivaldi|Browser Assistant|MicrosoftEdgeAutoLaunch|Chrome.*--no-startup-window|Edge Update|GoogleUpdate",
+      "que_es": "Navegador o su actualizador, que se precarga al iniciar.",
+      "impacto": "medio",
+      "mantener": false,
+      "consejo": "Quitar del inicio: el navegador se actualiza solo al abrirlo."
+    },
+    {
+      "patron": "Adobe|Creative Cloud|AdobeGC|Acrobat.*(Update|Synchronizer)",
+      "que_es": "Servicios de Adobe.",
+      "impacto": "alto",
+      "mantener": false,
+      "consejo": "Quitar del inicio; si no usa Adobe, desinstalar."
+    },
+    {
+      "patron": "uTorrent|BitTorrent|qBittorrent",
+      "que_es": "Programa de descargas por torrent.",
+      "impacto": "alto",
+      "mantener": false,
+      "consejo": "Quitar del inicio: sigue subiendo archivos en segundo plano y gasta internet y disco."
+    },
+    {
+      "patron": "CCleaner|Advanced SystemCare|Driver Booster|Wise|Glary|Optimizer|Cleaner",
+      "que_es": "'Optimizador' o limpiador.",
+      "impacto": "alto",
+      "mantener": false,
+      "consejo": "Quitar del inicio y proponer desinstalarlo."
+    }
+  ]
+}
