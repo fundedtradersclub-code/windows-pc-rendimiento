@@ -7,7 +7,10 @@ $destino = Join-Path $env:USERPROFILE '.claude\skills\rendimiento-pc'
 
 if (-not (Test-Path (Join-Path $origen 'SKILL.md'))) { throw "No se encontró $origen\SKILL.md. Ejecuta este script desde la carpeta del repositorio." }
 if (Test-Path $destino) {
-    $respaldo = "$destino.respaldo-$(Get-Date -Format 'yyyyMMdd-HHmmss')"
+    # Fuera de .claude\skills: si quedara ahí, Claude la cargaría como una segunda skill.
+    $carpetaRespaldos = Join-Path $env:USERPROFILE '.claude\skills-respaldos'
+    New-Item -ItemType Directory -Force -Path $carpetaRespaldos | Out-Null
+    $respaldo = Join-Path $carpetaRespaldos "rendimiento-pc-$(Get-Date -Format 'yyyyMMdd-HHmmss')"
     Move-Item $destino $respaldo
     Write-Host "Había una versión anterior; quedó en $respaldo"
 }
